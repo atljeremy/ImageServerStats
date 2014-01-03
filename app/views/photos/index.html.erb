@@ -6,8 +6,6 @@
       <th>Image</th>
       <th>Cache Hit</th>
       <th>Download Time</th>
-      <th>End Time</th>
-      <th>Start Time</th>
       <th>Size</th>
       <th></th>
       <th></th>
@@ -21,8 +19,6 @@
         <th><%= image_tag "http://image.apartmentguide.com/#{photo.server_url}", width: '75' %></th>
         <td><%= photo.cache_hit %></td>
         <td><b><%= photo.download_time.round(2) %> seconds</b></td>
-        <td><%= photo.end_time %></td>
-        <td><%= photo.start_time %></td>
         <td><b><%= photo.size %> bytes</b></td>
         <td><%= link_to 'Show', photo %></td>
       </tr>
