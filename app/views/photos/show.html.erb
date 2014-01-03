@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cachehit:</strong>
+  <%= @photo.cacheHit %>
+</p>
+
+<p>
+  <strong>Downloadtime:</strong>
+  <%= @photo.downloadTime %>
+</p>
+
+<p>
+  <strong>Endtime:</strong>
+  <%= @photo.endTime %>
+</p>
+
+<p>
+  <strong>Responseheaders:</strong>
+  <%= @photo.responseHeaders %>
+</p>
+
+<p>
+  <strong>Serverurl:</strong>
+  <%= @photo.serverURL %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @photo.size %>
+</p>
+
+<p>
+  <strong>Starttime:</strong>
+  <%= @photo.startTime %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

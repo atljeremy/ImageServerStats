@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cacheHit: false
+  downloadTime: 1.5
+  endTime: 2014-01-03 14:44:21
+  responseHeaders: MyString
+  serverURL: MyString
+  size: 1
+  startTime: 2014-01-03 14:44:21
+
+two:
+  cacheHit: false
+  downloadTime: 1.5
+  endTime: 2014-01-03 14:44:21
+  responseHeaders: MyString
+  serverURL: MyString
+  size: 1
+  startTime: 2014-01-03 14:44:21

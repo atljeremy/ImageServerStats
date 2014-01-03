@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails ImageServerStats: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="7af7dc21-c551-437e-8cd7-603767abc2ed">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:ImageServerStats_production</jdbc-url>
+    <user-name>ImageServerStats</user-name>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ImageServerStats: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="fb7d3a18-289c-4cf0-b9ff-f0c2d499741a">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:ImageServerStats_test</jdbc-url>
+    <user-name>ImageServerStats</user-name>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ImageServerStats: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="26125180-a824-4ec8-b2b1-c869bb2be174">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:ImageServerStats_development</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>dfcedfcfdfdcdffadfcbdfd9dfd9df9bdf98df99</user-password>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
