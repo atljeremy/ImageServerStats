@@ -11,19 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140103194421) do
+ActiveRecord::Schema.define(version: 20140103212213) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "photos", force: true do |t|
-    t.boolean  "cacheHit"
-    t.float    "downloadTime"
-    t.datetime "endTime"
-    t.text     "responseHeaders"
-    t.string   "serverURL"
+    t.boolean  "cache_hit"
+    t.float    "download_time"
+    t.datetime "end_time"
+    t.text     "response_headers"
+    t.string   "server_url"
     t.integer  "size"
-    t.datetime "startTime"
+    t.datetime "start_time"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

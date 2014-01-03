@@ -5,7 +5,7 @@ class PhotosController < ApplicationController
   # GET /photos
   # GET /photos.json
   def index
-    @photos = Photo.all
+    @photos = Photo.all.order('download_time DESC')
   end
 
   # GET /photos/1
@@ -19,13 +19,13 @@ class PhotosController < ApplicationController
     photos_saved = 0
     photos.each { |photo|
       _photo = Photo.new
-      _photo.cacheHit = photo[:cacheHit]
-      _photo.downloadTime = photo[:downloadTime]
-      _photo.endTime = photo[:endTime]
-      _photo.startTime = photo[:startTime]
-      _photo.serverURL = photo[:serverURL]
+      _photo.cache_hit = photo[:cacheHit]
+      _photo.download_time = photo[:downloadTime]
+      _photo.end_time = photo[:endTime]
+      _photo.start_time = photo[:startTime]
+      _photo.server_url = photo[:serverURL]
       _photo.size = photo[:size]
-      _photo.responseHeaders = photo[:responseHeaders]
+      _photo.response_headers = photo[:responseHeaders]
 
       if _photo.save
         photos_saved += 1
