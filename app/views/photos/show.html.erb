@@ -1,5 +1,16 @@
 <p id="notice"><%= notice %></p>
 
+<h1>Photo Stats</h1>
+
+<p>
+  <%= image_tag "http://image.apartmentguide.com/#{@photo.server_url}", width: '300' %>
+</p>
+
+<p>
+  <strong>Server URL:</strong>
+  <%= @photo.server_url %>
+</p>
+
 <p>
   <strong>Cache Hit:</strong>
   <%= @photo.cache_hit %>
@@ -11,18 +22,13 @@
 </p>
 
 <p>
+  <strong>Start Time:</strong>
+  <%= @photo.start_time %>
+</p>
+
+<p>
   <strong>End Time:</strong>
   <%= @photo.end_time %>
-</p>
-
-<p>
-  <strong>Response Headers:</strong>
-  <%= @photo.response_headers %>
-</p>
-
-<p>
-  <strong>Server URL:</strong>
-  <%= @photo.server_url %>
 </p>
 
 <p>
@@ -31,9 +37,8 @@
 </p>
 
 <p>
-  <strong>Start Time:</strong>
-  <%= @photo.start_time %>
+  <strong>Response Headers:</strong>
+  <%= @photo.response_headers %>
 </p>
 
-<%= link_to 'Edit', edit_photo_path(@photo) %> |
 <%= link_to 'Back', photos_path %>
