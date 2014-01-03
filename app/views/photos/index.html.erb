@@ -3,13 +3,12 @@
 <table>
   <thead>
     <tr>
+      <th>Image</th>
       <th>Cachehit</th>
       <th>Downloadtime</th>
       <th>Endtime</th>
-      <th>Responseheaders</th>
-      <th>Serverurl</th>
-      <th>Size</th>
       <th>Starttime</th>
+      <th>Size</th>
       <th></th>
       <th></th>
       <th></th>
@@ -19,16 +18,13 @@
   <tbody>
     <% @photos.each do |photo| %>
       <tr>
+        <th><%= image_tag "http://image.apartmentguide.com/#{photo.serverURL}", width: '75' %></th>
         <td><%= photo.cacheHit %></td>
-        <td><%= photo.downloadTime %></td>
+        <td><b><%= photo.downloadTime.round(2) %> seconds</b></td>
         <td><%= photo.endTime %></td>
-        <td><%= photo.responseHeaders %></td>
-        <td><%= photo.serverURL %></td>
-        <td><%= photo.size %></td>
         <td><%= photo.startTime %></td>
+        <td><b><%= photo.size %> bytes</b></td>
         <td><%= link_to 'Show', photo %></td>
-        <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
-        <td><%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
