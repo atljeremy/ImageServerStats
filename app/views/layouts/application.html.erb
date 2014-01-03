@@ -8,7 +8,32 @@
 </head>
 <body>
 
-<%= yield %>
+<div class="header-main-container">
+  <div id="header">
+    <a href="/"><h1>Image Server Analyzer</h1></a>
+
+    <div class="float_right">
+      <a href="/photos" class="blueBtn">View Image Data</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div class="main-container">
+
+  <% if flash[:notice] %>
+      <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
+
+  <div class="universal-div-bg">
+    <%= yield %>
+  </div>
+
+  <div id="footer">
+    © 2013 <span class="float_right"><span class="blue">Image Server Analyzer</span>
+    created by<%= link_to "Jeremy Fox", "http://www.jeremyfox.me" %></span>
+  </div>
+</div>
 
 </body>
 </html>
