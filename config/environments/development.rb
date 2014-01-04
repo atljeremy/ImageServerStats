@@ -9,6 +9,12 @@ ImageServerStats::Application.configure do
   # Do not eager load code on boot.
   config.eager_load = false
 
+  # Add the fonts path
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+
+  # Precompile additional assets
+  config.assets.precompile += %w( .svg .eot .woff .ttf .TTF .otf )
+
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
