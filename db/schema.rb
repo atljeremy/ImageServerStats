@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140103212213) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "photos", force: true do |t|
     t.boolean  "cache_hit"
     t.float    "download_time"
