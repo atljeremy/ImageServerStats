@@ -43,6 +43,10 @@ class StaticsController < ApplicationController
             data4 << photo.download_time
         end
       }
+      puts "Data 1 array count: #{data1.size}"
+      puts "Data 2 array count: #{data2.size}"
+      puts "Data 3 array count: #{data3.size}"
+      puts "Data 4 array count: #{data4.size}"
       g.data('0.0-0.3 Seconds', data1) if data1.size > 0
       g.data('0.4-0.7 Seconds', data2) if data2.size > 0
       g.data('0.7-1.0 Seconds', data3) if data3.size > 0
