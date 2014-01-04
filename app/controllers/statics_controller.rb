@@ -12,6 +12,7 @@ class StaticsController < ApplicationController
 
     if @photos.size > 0
       g = Gruff::Pie.new
+      g.title = 'Overall Download Times'
       g.theme = {
           :colors => [
               '#a9dada', # blue
@@ -26,31 +27,36 @@ class StaticsController < ApplicationController
           :font_color => 'black',
           :background_colors => '#f8f8f9'
       }
-      g.title = 'Overall Download Times'
-      data1 = []
-      data2 = []
-      data3 = []
-      data4 = []
+
+      value1 = 0
+      value2 = 0
+      value3 = 0
+      value4 = 0
       @photos.each { |photo|
         case photo.download_time
           when 0.0..0.3
-            data1 << 1
+            value1 += 1
           when 0.4..0.7
-            data2 << 1
+            value2 += 1
           when 0.7..1.0
-            data3 << 1
+            value3 += 1
           else
-            data4 << 1
+            value4 += 1
         end
       }
+      data1 = [value1]
+      data2 = [value2]
+      data3 = [value3]
+      data4 = [value4]
       puts "Data 1 array count: #{data1.size}"
       puts "Data 2 array count: #{data2.size}"
       puts "Data 3 array count: #{data3.size}"
       puts "Data 4 array count: #{data4.size}"
-      g.data('0.0-0.3 Seconds', data1) if data1.size > 0
-      g.data('0.4-0.7 Seconds', data2) if data2.size > 0
-      g.data('0.7-1.0 Seconds', data3) if data3.size > 0
-      g.data('1.0+ Seconds', data4) if data4.size > 0
+      g.data('0.0-0.3 Seconds', (data1.size > 0) ? data1 : [0])
+      g.data('0.4-0.7 Seconds', (data2.size > 0) ? data2 : [0])
+      g.data('0.7-1.0 Seconds', (data3.size > 0) ? data3 : [0])
+      g.data('1.0+ Seconds', (data4.size > 0) ? data4 : [0])
+
       filename = 'overall_downloads.png'
       g.write(filename)
       path = Rails.root + filename

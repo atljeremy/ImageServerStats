@@ -7,7 +7,7 @@
     <ignored path="ImageServerStats.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862598652" ignored="false" />
-    <file path="/statics_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388872175766" ignored="false" />
+    <file path="/statics_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388877206974" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/base.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/stacked_area.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/mini/pie.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
@@ -17,7 +17,7 @@
     <file path="/application.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862916162" ignored="false" />
     <file path="/application.yml" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862979667" ignored="false" />
     <file path="/index.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388871154083" ignored="false" />
-    <file path="/fragment.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388872861089" ignored="false" />
+    <file path="/fragment.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388875054382" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="statics_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.33333334">
+            <state line="37" column="23" selection-start="981" selection-end="981" vertical-scroll-proportion="0.39407745">
               <folding />
             </state>
           </provider>
@@ -468,7 +468,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -521,9 +521,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.523918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.33333334">
+        <state line="37" column="23" selection-start="981" selection-end="981" vertical-scroll-proportion="0.39407745">
           <folding />
         </state>
       </provider>
