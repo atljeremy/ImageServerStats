@@ -34,13 +34,13 @@ class StaticsController < ApplicationController
       @photos.each { |photo|
         case photo.download_time
           when 0.0..0.3
-            data1 << photo.download_time
+            data1 << 1
           when 0.4..0.7
-            data2 << photo.download_time
+            data2 << 1
           when 0.7..1.0
-            data3 << photo.download_time
+            data3 << 1
           else
-            data4 << photo.download_time
+            data4 << 1
         end
       }
       puts "Data 1 array count: #{data1.size}"
