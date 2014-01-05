@@ -171,6 +171,18 @@ div {
   border-radius: 3px;
 }
 
+@mixin markerDefaults {
+  background: white;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 0px;
+  padding: 5px;
+  color: white;
+  font-family: h1-font, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 1.0em;
+}
+
 /* /end mix-ins */
 
 textarea {
@@ -220,6 +232,25 @@ body {
 .map-container {
   @include mainContainer;
   height: 500px;
+}
+
+.marker_default {
+  @include markerDefaults;
+}
+
+.marker_green {
+  @include markerDefaults;
+  background: green;
+}
+
+.marker_orange {
+  @include markerDefaults;
+  background: orange;
+}
+
+.marker_red {
+  @include markerDefaults;
+  background: red;
 }
 
 .universal-div-bg {

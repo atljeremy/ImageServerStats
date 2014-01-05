@@ -74,6 +74,7 @@ class StaticsController < ApplicationController
         marker.lat photo.location_latitude
         marker.lng photo.location_longitude
         marker.infowindow "Photo URL: #{photo.server_url} <br/> Photo Download Time: #{photo.download_time}"
+        marker.json({title: photo.download_time.round(2)})
       end
     end
   end
