@@ -78,7 +78,7 @@ class StaticsController < ApplicationController
           @photos = Photo.where('download_time > 0.3 AND download_time <= 0.7')
         when '07-10'
           @photos = Photo.where('download_time > 0.7 AND download_time < 1.0')
-        when '10+'
+        when '10'
           @photos = Photo.where('download_time >= 1.0')
       end
     else
