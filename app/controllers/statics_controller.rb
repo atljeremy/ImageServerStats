@@ -67,8 +67,30 @@ class StaticsController < ApplicationController
   end
 
   def map
-    @photos = Photo.all.order('download_time DESC')
-    @photos.delete_if { |photo| photo.location_latitude.nil? || photo.location_longitude.nil? }
+    @photos = nil
+    filter = params[:filter]
+
+    if !filter.nil?
+      case filter
+        when '00-03'
+          @photos = Photo.where('download_time <= 0.3')
+        when '03-07'
+          @photos = Photo.where('download_time > 0.3 AND download_time <= 0.7')
+        when '07-10'
+          @photos = Photo.where('download_time > 0.7 AND download_time < 1.0')
+        when '10+'
+          @photos = Photo.where('download_time >= 1.0')
+      end
+    else
+      @photos = Photo.all.order('download_time DESC')
+    end
+
+    if !@photos.nil?
+      @photos.delete_if { |photo| photo.location_latitude.nil? || photo.location_longitude.nil? }
+    else
+      @photos = []
+    end
+
     @hash = Gmaps4rails.build_markers(@photos) do |photo, marker|
       if photo.location_latitude && photo.location_longitude
         marker.lat photo.location_latitude

@@ -481,6 +481,11 @@ h3 {
   @include btnDefaults;
 }
 
+.orangeBtn {
+  @include btnDefaults;
+  background: #FFB41E;
+}
+
 .greenBtnBlock {
   background: #67C478;
   @include btnDefaults;

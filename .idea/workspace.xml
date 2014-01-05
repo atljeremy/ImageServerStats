@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statics/map.html.erb" afterPath="$PROJECT_DIR$/app/views/statics/map.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/statics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ImageServerStats.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388881711728" ignored="false" />
-    <file path="/statics_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388950783762" ignored="false" />
+    <file path="/statics_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388953677806" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/stacked_area.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/mini/pie.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/stacked_bar.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
@@ -22,15 +18,15 @@
     <file path="/application.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862916162" ignored="false" />
     <file path="/application.yml" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862979667" ignored="false" />
     <file path="/index.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388888832758" ignored="false" />
-    <file path="/fragment.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388875054382" ignored="false" />
+    <file path="/fragment.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952758437" ignored="false" />
     <file path="/20140105002843_add_location_latitude_and_location_longitude_to_photos.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388881795416" ignored="false" />
     <file path="/photos_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388881846996" ignored="false" />
     <file path="/main.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388888172810" ignored="false" />
     <file path="/application.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388889224449" ignored="false" />
-    <file path="/main.css.scss" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388950748973" ignored="false" />
-    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388948604580" ignored="false" />
+    <file path="/main.css.scss" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952913203" ignored="false" />
+    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952991470" ignored="false" />
     <file path="/routes.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388889210859" ignored="false" />
-    <file path="/marker.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388950876985" ignored="false" />
+    <file path="/marker.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952280338" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statics_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="statics_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="28" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0">
+            <state line="90" column="18" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.5093897">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="marker.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+            <state line="16" column="8" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +76,7 @@
       <file leaf-file-name="map.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="273" selection-end="273" vertical-scroll-proportion="-5.428571">
+            <state line="6" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="-4.071429">
               <folding />
             </state>
           </provider>
@@ -89,36 +85,7 @@
       <file leaf-file-name="main.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="248" column="1" selection-start="4375" selection-end="4375" vertical-scroll-proportion="-12.568182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="marker.js.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="477" selection-end="477" vertical-scroll-proportion="0.38050735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="18" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="141" selection-start="732" selection-end="732" vertical-scroll-proportion="-5.428571">
+            <state line="484" column="23" selection-start="8955" selection-end="8955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,12 +123,12 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/statics/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
       </list>
     </option>
   </component>
@@ -595,8 +562,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6705277" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6010296" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3989704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -669,17 +636,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/pie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="341" selection-end="341" vertical-scroll-proportion="0.3355978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140105002843_add_location_latitude_and_location_longitude_to_photos.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="51" selection-start="190" selection-end="195" vertical-scroll-proportion="0.07610147">
@@ -717,9 +677,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gmaps4rails-2.1.1/js_compilation/gmaps_google.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="484" column="2" selection-start="15097" selection-end="15097" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.33244327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="711" selection-end="711" vertical-scroll-proportion="0.4388587">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="141" selection-start="732" selection-end="732" vertical-scroll-proportion="-5.428571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+        <state line="3" column="29" selection-start="98" selection-end="98" vertical-scroll-proportion="0.07610147">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.523918">
           <folding />
         </state>
       </provider>
@@ -731,60 +728,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gmaps4rails-2.1.1/js_compilation/gmaps_google.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="484" column="2" selection-start="15097" selection-end="15097" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="141" selection-start="732" selection-end="732" vertical-scroll-proportion="-5.428571">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="28" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0">
+        <state line="16" column="8" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="1" selection-start="4375" selection-end="4375" vertical-scroll-proportion="-12.568182">
+        <state line="484" column="23" selection-start="8955" selection-end="8955" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="273" selection-end="273" vertical-scroll-proportion="-5.428571">
+        <state line="6" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="-4.071429">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.33244327">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="477" selection-end="477" vertical-scroll-proportion="0.38050735">
+        <state line="90" column="18" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.5093897">
           <folding />
         </state>
       </provider>
