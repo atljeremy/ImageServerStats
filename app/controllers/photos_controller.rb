@@ -26,6 +26,8 @@ class PhotosController < ApplicationController
       _photo.server_url = photo[:serverURL]
       _photo.size = photo[:size]
       _photo.response_headers = photo[:responseHeaders]
+      _photo.location_latitude = photo[:locationLatitude]
+      _photo.location_longitude = photo[:locationLongitude]
 
       if _photo.save
         photos_saved += 1

@@ -217,6 +217,11 @@ body {
   @include mainContainer;
 }
 
+.map-container {
+  @include mainContainer;
+  height: 500px;
+}
+
 .universal-div-bg {
   @include mainDivStyle;
   min-height: 300px;

@@ -1,6 +1,7 @@
 ImageServerStats::Application.routes.draw do
 
   root 'statics#index'
+  get '/map' => 'statics#map'
   resources :photos
   post 'photos/add' => 'photos#add_photos'
 

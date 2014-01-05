@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140103212213) do
+ActiveRecord::Schema.define(version: 20140105002843) do
 
   create_table "photos", force: true do |t|
     t.boolean  "cache_hit"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 20140103212213) do
     t.datetime "start_time"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.float    "location_latitude"
+    t.float    "location_longitude"
   end
 
 end

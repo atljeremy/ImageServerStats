@@ -2,7 +2,6 @@ class StaticsController < ApplicationController
   require 'gruff'
 
   def index
-
     AWS::S3::Base.establish_connection!(
         :access_key_id     => ENV['AWS_ACCESS_KEY_ID'],
         :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
@@ -12,7 +11,7 @@ class StaticsController < ApplicationController
 
     if @photos.size > 0
       g = Gruff::Pie.new
-      g.title = 'Overall Download Times'
+      g.title = 'Overall Turnaround Times'
       g.theme = {
           :colors => [
               '#a9dada', # blue
@@ -64,6 +63,18 @@ class StaticsController < ApplicationController
         AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
       }
       @graph_url = AWS::S3::S3Object.url_for(filename, ENV['AWS_BUCKET'], :authenticated => false)
+    end
+  end
+
+  def map
+    @photos = Photo.all.order('download_time DESC')
+    @photos.delete_if { |photo| photo.location_latitude.nil? || photo.location_longitude.nil? }
+    @hash = Gmaps4rails.build_markers(@photos) do |photo, marker|
+      if photo.location_latitude && photo.location_longitude
+        marker.lat photo.location_latitude
+        marker.lng photo.location_longitude
+        marker.infowindow "Photo URL: #{photo.server_url} <br/> Photo Download Time: #{photo.download_time}"
+      end
     end
   end
 

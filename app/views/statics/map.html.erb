@@ -1,0 +1,15 @@
+<h3 class="center">Test Locations</h3>
+<div class="center map-container">
+  <div id="map" class="universal-div-bg"></div>
+</div>
+
+<div class="center">.</div>
+
+<script type="text/javascript">
+    handler = Gmaps.build('Google');
+    handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
+        markers = handler.addMarkers(<%=raw @hash.to_json %>);
+        handler.bounds.extendWith(markers);
+        handler.fitMapToBounds();
+    });
+</script>

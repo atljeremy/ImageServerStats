@@ -44,6 +44,7 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    gmaps4rails (2.1.1)
     gruff (0.5.1)
       rmagick
     hike (1.2.3)
@@ -127,6 +128,7 @@ DEPENDENCIES
   aws-s3
   coffee-rails (~> 4.0.0)
   figaro
+  gmaps4rails
   gruff
   jbuilder (~> 1.2)
   jquery-rails
