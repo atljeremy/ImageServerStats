@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/photos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/photos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/photos/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statics/index.html.erb" afterPath="$PROJECT_DIR$/app/views/statics/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/statics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
     </list>
     <ignored path="ImageServerStats.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389029358856" ignored="false" />
-    <file path="/statics_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388953677806" ignored="false" />
+    <file path="/statics_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389034207245" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/stacked_area.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/mini/pie.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gruff-0.5.1/lib/gruff/stacked_bar.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388858679850" ignored="false" />
     <file path="/Gemfile" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862442969" ignored="false" />
     <file path="/application.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862916162" ignored="false" />
     <file path="/application.yml" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388862979667" ignored="false" />
-    <file path="/index.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389033242450" ignored="false" />
+    <file path="/index.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389034178460" ignored="false" />
     <file path="/fragment.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952758437" ignored="false" />
     <file path="/20140105002843_add_location_latitude_and_location_longitude_to_photos.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388881795416" ignored="false" />
     <file path="/photos_controller.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389033338785" ignored="false" />
@@ -52,10 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="photos_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="photos_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="339" selection-end="339" vertical-scroll-proportion="0.1993007">
+            <state line="10" column="27" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,10 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statics_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="statics_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="7" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+            <state line="106" column="46" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.33216783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/statics/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="42" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.3571428">
               <folding />
             </state>
           </provider>
@@ -140,12 +145,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/underscore.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/statics/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140106172736_add_processing_time_to_photo.rb" />
@@ -153,6 +156,8 @@
         <option value="$PROJECT_DIR$/app/views/photos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/statics/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
       </list>
     </option>
   </component>
@@ -593,7 +598,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39775562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328279" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328279" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -665,18 +670,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/statics_controller.rb</url>
-          <line>87</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/statics_controller.rb</url>
-          <line>81</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="23" />
     </breakpoint-manager>
   </component>
@@ -686,11 +679,6 @@
         <state line="14" column="17" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statics/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
@@ -743,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="7" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140106172921_add_connection_started_to_photo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.044289045">
@@ -780,7 +761,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="339" selection-end="339" vertical-scroll-proportion="0.1993007">
+        <state line="10" column="27" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statics/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.3571428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="46" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.33216783">
           <folding />
         </state>
       </provider>
