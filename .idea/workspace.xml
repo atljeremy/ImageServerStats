@@ -21,7 +21,7 @@
     <file path="/main.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388888172810" ignored="false" />
     <file path="/application.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389013910270" ignored="false" />
     <file path="/main.css.scss" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952913203" ignored="false" />
-    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389034445055" ignored="false" />
+    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389034509674" ignored="false" />
     <file path="/routes.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388889210859" ignored="false" />
     <file path="/marker.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952280338" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/gruff-0.5.1/lib/gruff/base.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389015924052" ignored="false" />
@@ -95,7 +95,7 @@
       <file leaf-file-name="map.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="65" selection-start="425" selection-end="425" vertical-scroll-proportion="0.18313253">
+            <state line="8" column="17" selection-start="377" selection-end="377" vertical-scroll-proportion="0.18313253">
               <folding />
             </state>
           </provider>
@@ -774,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="65" selection-start="425" selection-end="425" vertical-scroll-proportion="0.18313253">
+        <state line="8" column="17" selection-start="377" selection-end="377" vertical-scroll-proportion="0.18313253">
           <folding />
         </state>
       </provider>
