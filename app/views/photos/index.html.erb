@@ -18,7 +18,7 @@
         <th><%= image_tag "http://image.apartmentguide.com/#{photo.server_url}", width: '75' %></th>
         <td width='100'><%= photo.cache_hit %></td>
         <td width='200'><b><%= photo.processing_time.round(2) if photo.processing_time %> seconds</b></td>
-        <td width='200'><b><%= photo.download_time.round(2) %> seconds</b></td>
+        <td width='200'><b><%= photo.download_time.round(4) %> seconds</b></td>
         <td width='100'><b><%= photo.size %> bytes</b></td>
         <td><%= link_to 'Show', photo %></td>
       </tr>
