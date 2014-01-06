@@ -17,17 +17,27 @@
 </p>
 
 <p>
+  <strong>Server Processing Time:</strong>
+  <%= @photo.processing_time %>
+</p>
+
+<p>
   <strong>Download Time:</strong>
   <%= @photo.download_time %>
 </p>
 
 <p>
-  <strong>Start Time:</strong>
+  <strong>Connection Started:</strong>
+  <%= @photo.connection_started %>
+</p>
+
+<p>
+  <strong>Started Receiving Data:</strong>
   <%= @photo.start_time %>
 </p>
 
 <p>
-  <strong>End Time:</strong>
+  <strong>Finished Receiving Data:</strong>
   <%= @photo.end_time %>
 </p>
 

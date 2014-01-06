@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140105002843) do
+ActiveRecord::Schema.define(version: 20140106172921) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "photos", force: true do |t|
     t.boolean  "cache_hit"
@@ -25,6 +28,8 @@ ActiveRecord::Schema.define(version: 20140105002843) do
     t.datetime "updated_at"
     t.float    "location_latitude"
     t.float    "location_longitude"
+    t.float    "processing_time"
+    t.datetime "connection_started"
   end
 
 end

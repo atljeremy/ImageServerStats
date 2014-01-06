@@ -5,7 +5,12 @@ class PhotosController < ApplicationController
   # GET /photos
   # GET /photos.json
   def index
-    @photos = Photo.all.order('download_time DESC')
+    sort = params[:sort]
+    order = 'processing_time DESC'
+    if !sort.nil?
+      order = "#{sort} DESC"
+    end
+    @photos = Photo.all.order(order)
   end
 
   # GET /photos/1
@@ -28,6 +33,8 @@ class PhotosController < ApplicationController
       _photo.response_headers = photo[:responseHeaders]
       _photo.location_latitude = photo[:locationLatitude]
       _photo.location_longitude = photo[:locationLongitude]
+      _photo.processing_time = photo[:processingTime]
+      _photo.connection_started = photo[:connectionStarted]
 
       if _photo.save
         photos_saved += 1
