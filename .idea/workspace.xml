@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statics/index.html.erb" afterPath="$PROJECT_DIR$/app/views/statics/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/statics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statics/map.html.erb" afterPath="$PROJECT_DIR$/app/views/statics/map.html.erb" />
     </list>
     <ignored path="ImageServerStats.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +21,7 @@
     <file path="/main.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388888172810" ignored="false" />
     <file path="/application.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389013910270" ignored="false" />
     <file path="/main.css.scss" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952913203" ignored="false" />
-    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952991470" ignored="false" />
+    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389034445055" ignored="false" />
     <file path="/routes.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388889210859" ignored="false" />
     <file path="/marker.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952280338" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/gruff-0.5.1/lib/gruff/base.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389015924052" ignored="false" />
@@ -75,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statics_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="statics_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="46" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.33216783">
+            <state line="106" column="46" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="map.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+            <state line="8" column="65" selection-start="425" selection-end="425" vertical-scroll-proportion="0.18313253">
               <folding />
             </state>
           </provider>
@@ -149,7 +148,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140106172736_add_processing_time_to_photo.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140106172921_add_connection_started_to_photo.rb" />
@@ -158,6 +156,7 @@
         <option value="$PROJECT_DIR$/app/controllers/photos_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/statics/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
       </list>
     </option>
   </component>
@@ -710,13 +709,6 @@
         <state line="16" column="8" selection-start="517" selection-end="517" vertical-scroll-proportion="0.23584174" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="8" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-15.607142">
@@ -775,7 +767,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="46" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.33216783">
+        <state line="106" column="46" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="65" selection-start="425" selection-end="425" vertical-scroll-proportion="0.18313253">
           <folding />
         </state>
       </provider>
