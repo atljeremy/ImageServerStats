@@ -22,7 +22,7 @@
     <file path="/main.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388888172810" ignored="false" />
     <file path="/application.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389013910270" ignored="false" />
     <file path="/main.css.scss" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952913203" ignored="false" />
-    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389110531253" ignored="false" />
+    <file path="/map.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389112548312" ignored="false" />
     <file path="/routes.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388889210859" ignored="false" />
     <file path="/marker.js.coffee" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1388952280338" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/gruff-0.5.1/lib/gruff/base.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389015924052" ignored="false" />
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statics_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="statics_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0">
+            <state line="59" column="55" selection-start="2481" selection-end="2481" vertical-scroll-proportion="0.5458167">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="map.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="9" selection-start="682" selection-end="682" vertical-scroll-proportion="0.46341464">
+            <state line="9" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="-6.107143">
               <folding />
             </state>
           </provider>
@@ -131,8 +131,8 @@
         <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
         <option value="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
         <option value="$PROJECT_DIR$/app/models/photo.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
       </list>
     </option>
   </component>
@@ -795,16 +795,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0">
+        <state line="9" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="-6.107143">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="682" selection-end="682" vertical-scroll-proportion="0.46341464">
+        <state line="59" column="55" selection-start="2481" selection-end="2481" vertical-scroll-proportion="0.5458167">
           <folding />
         </state>
       </provider>
