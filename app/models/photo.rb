@@ -46,7 +46,7 @@ class Photo < ActiveRecord::Base
       g.data('0.7-1.0 Seconds', (data3.size > 0) ? data3 : [0])
       g.data('1.0+ Seconds', (data4.size > 0) ? data4 : [0])
 
-      filename = 'TEST_download_times.png'
+      filename = 'download_times.png'
       g.write(filename)
       path = Rails.root + filename
       File.open(path, 'rb') {|file|
@@ -101,7 +101,7 @@ class Photo < ActiveRecord::Base
       g.data('0.7-1.0 Seconds', (data3.size > 0) ? data3 : [0])
       g.data('1.0+ Seconds', (data4.size > 0) ? data4 : [0])
 
-      filename = 'TEST_processing_times.png'
+      filename = 'processing_times.png'
       g.write(filename)
       path = Rails.root + filename
       File.open(path, 'rb') {|file|
