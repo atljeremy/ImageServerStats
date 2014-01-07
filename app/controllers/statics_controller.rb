@@ -18,16 +18,16 @@ class StaticsController < ApplicationController
     if !filter.nil?
       case filter
         when '00-03'
-          @photos = Photo.where('download_time <= 0.3')
+          @photos = Photo.where('download_time <= 0.3').order('location_latitude DESC')
         when '03-07'
-          @photos = Photo.where('download_time > 0.3 AND download_time <= 0.7')
+          @photos = Photo.where('download_time > 0.3 AND download_time <= 0.7').order('location_latitude DESC')
         when '07-10'
-          @photos = Photo.where('download_time > 0.7 AND download_time < 1.0')
+          @photos = Photo.where('download_time > 0.7 AND download_time < 1.0').order('location_latitude DESC')
         when '10'
-          @photos = Photo.where('download_time >= 1.0')
+          @photos = Photo.where('download_time >= 1.0').order('location_latitude DESC')
       end
     else
-      @photos = Photo.all.order('download_time DESC')
+      @photos = Photo.all.order('location_latitude DESC')
     end
 
     if !@photos.nil?
@@ -39,12 +39,14 @@ class StaticsController < ApplicationController
         if has_location_info && !@previous_photo.nil?
           previous_has_location_info = !@previous_photo.location_latitude.nil? && !@previous_photo.location_longitude.nil?
           if previous_has_location_info
-            same_location = @previous_photo.location_latitude.round(1) == photo.location_latitude.round(1)
+            same_lat = @previous_photo.location_latitude.round(0) == photo.location_latitude.round(0)
+            same_long = @previous_photo.location_longitude.round(0) == photo.location_longitude.round(0)
+            same_location = same_lat && same_long
             has_greater_download_time = @previous_photo.download_time < photo.download_time
           end
         end
         @previous_photo = photo
-        (!has_location_info || (same_location && !has_greater_download_time))
+        (!has_location_info || same_location || (same_location && !has_greater_download_time))
       }
     else
       @photos = []
