@@ -31,7 +31,21 @@ class StaticsController < ApplicationController
     end
 
     if !@photos.nil?
-      @photos.delete_if { |photo| photo.location_latitude.nil? || photo.location_longitude.nil? }
+      @previous_photo
+      @photos.delete_if { |photo|
+        has_location_info = !photo.location_latitude.nil? && !photo.location_longitude.nil?
+        same_location = false
+        has_greater_download_time = false
+        if has_location_info && !@previous_photo.nil?
+          previous_has_location_info = !@previous_photo.location_latitude.nil? && !@previous_photo.location_longitude.nil?
+          if previous_has_location_info
+            same_location = @previous_photo.location_latitude.round(1) == photo.location_latitude.round(1)
+            has_greater_download_time = @previous_photo.download_time < photo.download_time
+          end
+        end
+        @previous_photo = photo
+        (!has_location_info || (same_location && !has_greater_download_time))
+      }
     else
       @photos = []
     end
