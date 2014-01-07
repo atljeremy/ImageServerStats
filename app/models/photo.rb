@@ -26,7 +26,7 @@ class Photo < ActiveRecord::Base
       value3 = 0
       value4 = 0
       @photos.each { |photo|
-        case photo.download_time
+        case photo.processing_time
           when 0.0..0.3
             value1 += 1
           when 0.4..0.7
@@ -48,10 +48,10 @@ class Photo < ActiveRecord::Base
 
       filename = 'download_times.png'
       g.write(filename)
-      path = Rails.root + filename
-      File.open(path, 'rb') {|file|
-        AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
-      }
+      #path = Rails.root + filename
+      #File.open(path, 'rb') {|file|
+      #  AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
+      #}
     end
   end
 
@@ -80,33 +80,38 @@ class Photo < ActiveRecord::Base
       value2 = 0
       value3 = 0
       value4 = 0
+      value5 = 0
       @photos.each { |photo|
-        case photo.processing_time
+        case photo.download_time
           when 0.0..0.3
             value1 += 1
-          when 0.4..0.7
+          when 0.3..0.7
             value2 += 1
           when 0.7..1.0
             value3 += 1
-          else
+          when 1.0..5.0
             value4 += 1
+          else
+            value5 += 1
         end
       }
       data1 = [value1]
       data2 = [value2]
       data3 = [value3]
       data4 = [value4]
+      data5 = [value5]
       g.data('0.0-0.3 Seconds', (data1.size > 0) ? data1 : [0])
       g.data('0.4-0.7 Seconds', (data2.size > 0) ? data2 : [0])
       g.data('0.7-1.0 Seconds', (data3.size > 0) ? data3 : [0])
-      g.data('1.0+ Seconds', (data4.size > 0) ? data4 : [0])
+      g.data('1.0-5.0 Seconds', (data4.size > 0) ? data4 : [0])
+      g.data('5.0+ Seconds',    (data5.size > 0) ? data5 : [0])
 
       filename = 'processing_times.png'
       g.write(filename)
-      path = Rails.root + filename
-      File.open(path, 'rb') {|file|
-        AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
-      }
+      #path = Rails.root + filename
+      #File.open(path, 'rb') {|file|
+      #  AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
+      #}
     end
   end
 

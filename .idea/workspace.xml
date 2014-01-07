@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statics/map.html.erb" afterPath="$PROJECT_DIR$/app/views/statics/map.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/statics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
     </list>
     <ignored path="ImageServerStats.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +29,7 @@
     <file path="/20140106172921_add_connection_started_to_photo.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389029377249" ignored="false" />
     <file path="/show.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389030521056" ignored="false" />
     <file path="/scheduler.rake" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389103582702" ignored="false" />
-    <file path="/photo.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389103356102" ignored="false" />
+    <file path="/photo.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389126520267" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +58,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statics_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="statics_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="55" selection-start="2481" selection-end="2481" vertical-scroll-proportion="0.5458167">
+            <state line="51" column="18" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="23" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.67754567">
               <folding />
             </state>
           </provider>
@@ -130,9 +138,9 @@
         <option value="$PROJECT_DIR$/app/views/statics/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/photos/index.html.erb" />
         <option value="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
-        <option value="$PROJECT_DIR$/app/models/photo.rb" />
         <option value="$PROJECT_DIR$/app/views/statics/map.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/photo.rb" />
       </list>
     </option>
   </component>
@@ -695,22 +703,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/marker.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="517" selection-end="517" vertical-scroll-proportion="0.23584174" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140106172736_add_processing_time_to_photo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="48" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
@@ -767,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="18" selection-start="1330" selection-end="1330" vertical-scroll-proportion="1.0641774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/gmaps4rails-2.1.1/lib/gmaps4rails/markers_builder.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.33333334">
@@ -804,7 +793,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="55" selection-start="2481" selection-end="2481" vertical-scroll-proportion="0.5458167">
+        <state line="51" column="18" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_times.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processing_times.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="23" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.67754567">
           <folding />
         </state>
       </provider>
