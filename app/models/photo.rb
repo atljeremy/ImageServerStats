@@ -26,7 +26,7 @@ class Photo < ActiveRecord::Base
       value3 = 0
       value4 = 0
       @photos.each { |photo|
-        case photo.processing_time
+        case photo.download_time
           when 0.0..0.3
             value1 += 1
           when 0.4..0.7
@@ -82,7 +82,7 @@ class Photo < ActiveRecord::Base
       value4 = 0
       value5 = 0
       @photos.each { |photo|
-        case photo.download_time
+        case photo.processing_time
           when 0.0..0.3
             value1 += 1
           when 0.3..0.7

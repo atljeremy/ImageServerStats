@@ -29,7 +29,7 @@
     <file path="/20140106172921_add_connection_started_to_photo.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389029377249" ignored="false" />
     <file path="/show.html.erb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389030521056" ignored="false" />
     <file path="/scheduler.rake" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389103582702" ignored="false" />
-    <file path="/photo.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389126520267" ignored="false" />
+    <file path="/photo.rb" changelist="b83982e9-0181-4ad2-9f3c-e76a1ec59bf2" time="1389141818137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="statics_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="18" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+            <state line="66" column="6" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +70,7 @@
       <file leaf-file-name="photo.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="7" selection-start="1383" selection-end="1551" vertical-scroll-proportion="0.39686683">
+            <state line="25" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="-1.4556136">
               <folding />
             </state>
           </provider>
@@ -703,7 +703,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/statics_controller.rb</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -724,13 +731,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/photos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="28" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -777,23 +777,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statics/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.3571428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/statics/map.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="-6.107143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -808,9 +794,30 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statics/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.3571428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/statics_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="6" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.7271541">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="7" selection-start="1383" selection-end="1551" vertical-scroll-proportion="0.39686683">
+        <state line="25" column="16" selection-start="683" selection-end="683" vertical-scroll-proportion="-1.4556136">
           <folding />
         </state>
       </provider>
