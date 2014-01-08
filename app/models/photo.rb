@@ -48,10 +48,10 @@ class Photo < ActiveRecord::Base
 
       filename = 'download_times.png'
       g.write(filename)
-      #path = Rails.root + filename
-      #File.open(path, 'rb') {|file|
-      #  AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
-      #}
+      path = Rails.root + filename
+      File.open(path, 'rb') {|file|
+        AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
+      }
     end
   end
 
@@ -108,10 +108,10 @@ class Photo < ActiveRecord::Base
 
       filename = 'processing_times.png'
       g.write(filename)
-      #path = Rails.root + filename
-      #File.open(path, 'rb') {|file|
-      #  AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
-      #}
+      path = Rails.root + filename
+      File.open(path, 'rb') {|file|
+        AWS::S3::S3Object.store(filename, file.read, ENV['AWS_BUCKET'], :access => :public_read)
+      }
     end
   end
 
