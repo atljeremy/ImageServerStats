@@ -10,7 +10,7 @@ class PhotosController < ApplicationController
     if !sort.nil?
       order = "#{sort} DESC"
     end
-    @photos = Photo.all.order(order)
+    @photos = Photo.paginate :page => params[:page], :order => order
   end
 
   # GET /photos/1
